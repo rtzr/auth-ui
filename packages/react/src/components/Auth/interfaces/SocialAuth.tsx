@@ -14,6 +14,7 @@ interface SocialAuthProps {
   view?: 'sign_in' | 'sign_up'
   i18n?: I18nVariables
   appearance?: Appearance
+  scopes?: string
 }
 
 type RedirectTo = undefined | string
@@ -27,6 +28,7 @@ function SocialAuth({
   view = 'sign_in',
   i18n,
   appearance,
+  scopes
 }: SocialAuthProps) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -37,7 +39,7 @@ function SocialAuth({
     setLoading(true)
     const { error } = await supabaseClient.auth.signInWithOAuth({
       provider,
-      options: { redirectTo },
+      options: { redirectTo, scopes },
     })
     if (error) setError(error.message)
     setLoading(false)
