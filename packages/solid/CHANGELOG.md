@@ -1,5 +1,12 @@
 # @supabase/auth-ui-solid
 
+## 0.2.5
+
+### Patch Changes
+
+- Updated dependencies [12b8b16]
+  - @rtzr/auth-ui-shared@0.1.4
+
 ## 0.2.4
 
 ### Patch Changes
