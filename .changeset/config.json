@@ -7,5 +7,5 @@
   "access": "restricted",
   "baseBranch": "develop",
   "updateInternalDependencies": "patch",
-  "ignore": ["@example/*", "@rtzr/auth-ui-solid", "@rtzr/auth-ui-svelte",
+  "ignore": ["@example/*", "@rtzr/auth-ui-solid", "@rtzr/auth-ui-svelte"]
 }
