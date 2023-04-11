@@ -1,5 +1,13 @@
 # @supabase/auth-ui-react
 
+## 0.3.6
+
+### Patch Changes
+
+- 12b8b16: scopes 추가
+- Updated dependencies [12b8b16]
+  - @rtzr/auth-ui-shared@0.1.4
+
 ## 0.3.5
 
 ### Patch Changes
