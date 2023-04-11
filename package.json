@@ -1,12 +1,12 @@
 {
-  "name": "@supabase/auth-ui",
+  "name": "@rtzr/auth-ui",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "build:react": "turbo run build --filter=@supabase/auth-ui-react",
-    "build:solid":"turbo run build --filter=@supabase/auth-ui-solid",
-    "build:svelte": "turbo run build --filter=@supabase/auth-ui-svelte",
+    "build:react": "turbo run build --filter=@rtzr/auth-ui-react",
+    "build:solid":"turbo run build --filter=@rtzr/auth-ui-solid",
+    "build:svelte": "turbo run build --filter=@rtzr/auth-ui-svelte",
     "build:example": "turbo run build:example",
     "build:example:react": "turbo run build:example --filter=@example/react",
     "build:example:solid": "turbo run build:example --filter=@example/solid",
