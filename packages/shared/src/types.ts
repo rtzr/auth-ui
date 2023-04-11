@@ -90,6 +90,7 @@ export interface BaseAuth {
     variables?: I18nVariables
   }
   theme?: 'default' | string
+  scopes?: string
 }
 
 export type I18nVariables = {
