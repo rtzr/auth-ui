@@ -8,7 +8,7 @@ import {
   customTheme,
 } from './store'
 import { Auth } from '@supabase/auth-ui-solid'
-import { ThemeSupa } from '@supabase/auth-ui-shared'
+import { ThemeSupa } from '@rtzr/auth-ui-shared'
 
 const supabase = createClient(
   'https://fmlovqieocwjaghmavax.supabase.co',

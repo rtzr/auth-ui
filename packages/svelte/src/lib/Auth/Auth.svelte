@@ -8,7 +8,7 @@
 		en,
 		type SocialLayout,
 		type ViewType
-	} from '@supabase/auth-ui-shared';
+	} from '@rtzr/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 	import EmailAuth from './interfaces/EmailAuth.svelte';
 	import ForgottenPassword from './interfaces/ForgottenPassword.svelte';

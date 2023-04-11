@@ -1,6 +1,6 @@
 import { Provider, SupabaseClient } from '@supabase/supabase-js'
 import { useState } from 'react'
-import { I18nVariables, SocialLayout, template } from '@supabase/auth-ui-shared'
+import { I18nVariables, SocialLayout, template } from '@rtzr/auth-ui-shared'
 import { Appearance } from '../../../types'
 import { Button, Container, Divider } from './../../UI/index.js'
 import * as SocialIcons from './../Icons.js'

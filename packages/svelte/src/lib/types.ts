@@ -1,4 +1,4 @@
-import type { BaseAppearance } from '@supabase/auth-ui-shared';
+import type { BaseAppearance } from '@rtzr/auth-ui-shared';
 
 export interface Appearance extends BaseAppearance {
 	style?: {

@@ -6,7 +6,7 @@ import {
   VIEWS,
   en,
   SocialLayout,
-} from '@supabase/auth-ui-shared'
+} from '@rtzr/auth-ui-shared'
 import { Auth as AuthProps } from '../../types'
 import {
   EmailAuth,

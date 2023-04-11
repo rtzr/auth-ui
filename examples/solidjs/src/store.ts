@@ -1,4 +1,4 @@
-import { SocialLayout } from '@supabase/auth-ui-shared'
+import { SocialLayout } from '@rtzr/auth-ui-shared'
 import { createSignal } from 'solid-js'
 
 export const [customButtonColor, setCustomButtonColor] =

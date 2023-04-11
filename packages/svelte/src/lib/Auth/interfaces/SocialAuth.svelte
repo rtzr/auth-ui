@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SupabaseClient, Provider } from '@supabase/supabase-js';
-	import { template, type I18nVariables, type SocialLayout } from '@supabase/auth-ui-shared';
+	import { template, type I18nVariables, type SocialLayout } from '@rtzr/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 	import Button from '$lib/UI/Button.svelte';
 	import Container from '$lib/UI/Container.svelte';
