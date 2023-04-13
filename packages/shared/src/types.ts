@@ -91,6 +91,7 @@ export interface BaseAuth {
   }
   theme?: 'default' | string
   scopes?: string
+  queryParams?: { [key: string]: string }
 }
 
 export type I18nVariables = {
