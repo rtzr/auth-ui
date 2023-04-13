@@ -24,7 +24,8 @@ function Auth({
   appearance,
   theme = 'default',
   localization = { variables: {} },
-  scopes
+  scopes,
+  queryParams,
 }: AuthProps): JSX.Element | null {
   /**
    * Localization support
@@ -87,6 +88,7 @@ function Auth({
           i18n={i18n}
           view={authView as 'sign_in' | 'sign_up'}
           scopes={scopes}
+          queryParams={queryParams}
         />
       )}
       {!onlyThirdPartyProviders && children}
