@@ -1,5 +1,13 @@
 # @supabase/auth-ui-react
 
+## 0.3.7
+
+### Patch Changes
+
+- 863c874: queryParams 추가
+- Updated dependencies [863c874]
+  - @rtzr/auth-ui-shared@0.1.5
+
 ## 0.3.6
 
 ### Patch Changes
