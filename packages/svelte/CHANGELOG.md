@@ -1,5 +1,12 @@
 # @supabase/auth-ui-svelte
 
+## 0.1.7
+
+### Patch Changes
+
+- Updated dependencies [863c874]
+  - @rtzr/auth-ui-shared@0.1.5
+
 ## 0.1.6
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @supabase/auth-ui-shared
 
+## 0.1.5
+
+### Patch Changes
+
+- 863c874: queryParams 추가
+
 ## 0.1.4
 
 ### Patch Changes
